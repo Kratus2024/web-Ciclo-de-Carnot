@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnot's theorem</title>
+</head>
+<body>
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+
+    <img src="image1.png" alt="Logo" width="200">
+
+    <img src="logo_uniatlantico.png" alt="Logo Universidad del Atlántico" width="200">
+
+</div>
+  <h2>Introduction</h2>
+<p>
+La Calculadora del Ciclo de Carnot es una aplicación que realiza el cálculo del rendimiento, la aplicación presenta los resultados de manera clara e incluye diagnósticos que verifican la validez de los datos ingresados, así como una interpretación física que facilita la comprensión del significado de los valores obtenidos. De esta forma, el usuario puede identificar si las condiciones de operación son físicamente posibles y comprender cómo la diferencia de temperaturas influye en la eficiencia de una máquina térmica.
+</p>
+<h3>Objetivo</h3>
+
+<p>
+Esta aplicación tiene como objetivo calcular el rendimiento máximo teórico de una
+máquina térmica ideal utilizando el Teorema de Carnot. Además, permite interpretar
+los resultados obtenidos y verificar si las condiciones ingresadas cumplen con la
+Segunda Ley de la Termodinámica.
+</p>
+
+
+
+
+<h1> Carnot Cycle Calculator</h1>
+  <img src="carnot.png" alt="Ciclo de Carnot" width="500">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"> </script>
+  <form>
+    <label>Temperatura foco caliente (°C):</label><br>
+    <input id="Th_c" type="number"><br><br>
+
+    <label>Temperatura foco frio (°C):</label><br>
+    <input id="Tc_c" type="number"><br><br>
+
+    <label>Calor suministrado Qh (J):</label><br>
+    <input id="Qh" type="number"><br><br>
+
+    <label>Trabajo W (J) [opcional]:</label><br>
+    <input id="W" type="number"><br><br>
+
+    <button type="button" onclick="calcular()">Calcular</button>
+  </form>
+
+  <h2>Results</h2>
+  <div id="resultado"></div>
+
+  <h2>Diagnostics</h2>
+  <div id="mensaje"></div>
+  <p1>Gráfica de Distribución de la Energía en el ciclo.</p1>
+
+<canvas id="graficaCarnot" width="500" height="250"></canvas>
+
+  <h2>Physical Interpretation</h2>
+  <div id="interp"></div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>

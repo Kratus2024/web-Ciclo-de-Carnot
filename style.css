@@ -1,0 +1,252 @@
+/* ===========================
+   ESTILO GENERAL
+=========================== */
+
+body{
+    background:#121212;
+    color:#E0E0E0;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:30px;
+}
+
+/* ===========================
+   ENCABEZADO
+=========================== */
+
+.encabezado{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.encabezado div{
+    text-align:center;
+}
+
+img{
+    border-radius:10px;
+}
+
+/* ===========================
+   TITULOS
+=========================== */
+
+h1{
+    color:#4FC3F7;
+}
+
+h2{
+    color:#81D4FA;
+    border-bottom:2px solid #4FC3F7;
+    padding-bottom:8px;
+}
+
+h3{
+    color:#B3E5FC;
+}
+
+/* ===========================
+   TEXTO
+=========================== */
+
+p{
+    text-align:justify;
+    line-height:1.7;
+}
+
+/* ===========================
+   FORMULARIO
+=========================== */
+
+form{
+
+    background:#1E1E1E;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,.5);
+
+    width:500px;
+
+}
+
+/* ===========================
+   INPUTS
+=========================== */
+
+input{
+
+    width:95%;
+
+    padding:10px;
+
+    background:#2A2A2A;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+input:focus{
+
+    outline:none;
+
+    border:2px solid #4FC3F7;
+
+}
+
+/* ===========================
+   BOTON
+=========================== */
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#1565C0;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#1976D2;
+
+    transform:scale(1.02);
+
+}
+
+/* ===========================
+   RESULTADOS
+=========================== */
+
+#resultado{
+
+    background:#1B4332;
+
+    padding:20px;
+
+    border-left:6px solid #2ECC71;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   DIAGNOSTICO
+=========================== */
+
+#mensaje{
+
+    background:#4E342E;
+
+    padding:20px;
+
+    border-left:6px solid #FB8C00;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   INTERPRETACION
+=========================== */
+
+#interp{
+
+    background:#263238;
+
+    padding:20px;
+
+    border-left:6px solid #29B6F6;
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   GRAFICA
+=========================== */
+
+canvas{
+
+    background:#1E1E1E;
+
+    border-radius:15px;
+
+    padding:15px;
+
+}
+
+/* ===========================
+   TABLAS
+=========================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#1565C0;
+
+    color:white;
+
+}
+
+td{
+
+    background:#1E1E1E;
+
+}
+
+td,th{
+
+    border:1px solid #444;
+
+    padding:12px;
+
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+    color:#4FC3F7;
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    color:white;
+
+}
